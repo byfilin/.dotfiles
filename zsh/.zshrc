@@ -92,10 +92,10 @@ compdef _directories md
 # Define aliases.
 alias tree='tree -a -I .git'
 alias vim="nvim"
-alias ls="ls -la"
+alias ls="exa -la"
 
 # Add flags to existing aliases.
-alias ls="${aliases[ls]:-ls} -A"
+# alias ls="${aliases[ls]:-ls} -A"
 
 # Set shell options: http://zsh.sourceforge.net/Doc/Release/Options.html.
 setopt glob_dots     # no special treatment for file names with a leading dot
