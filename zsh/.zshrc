@@ -2,6 +2,7 @@
 # shell customization and configuration (including exported environment
 # variables such as PATH) in this file or in files sourced from it.
 #
+
 # Documentation: https://github.com/romkatv/zsh4humans/blob/v5/README.md.
 
 # Periodic auto-update on Zsh startup: 'ask' or 'no'.
@@ -106,3 +107,4 @@ export PATH="$HOME/.amplify/bin:$PATH"
 
 # Ignore pointless commands in history
 export HISTIGNORE='pwd:exit:fg:bg:top:clear:history:ls:uptime:df'
+
